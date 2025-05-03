@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css">
+  <title>Calculator</title>
+</head>
+<body>
+  <h1>Calculator</h1>
+  
+  <input type="text" id="display" placeholder="0" />
+  <div id="buttons">
+    <button class="btn" onclick="changeinp('7')">7</button>
+    <button class="btn" onclick="changeinp ('8')">8</button>
+    <button class="btn" onclick="changeinp('9')">9</button>
+    <button class="plus" onclick="changeinp('+')">+</button><br>
+    <button  class="btn" onclick="changeinp('4')">4</button>
+    <button  class="btn"onclick="changeinp('5')">5</button>
+    <button class="btn" onclick="changeinp('6')">6</button>
+    <button class="plus" onclick="changeinp('-')">-</button><br>
+    <button  class="btn"onclick="changeinp('1')">1</button>
+    <button class="btn"onclick="changeinp('2')">2</button>
+    <button class="btn"onclick="changeinp('3')">3</button>
+    <button class="plus" onclick="changeinp('*')">*</button><br>
+    <button class="btn" onclick="clear()" style="width: 60px; background-color: rgb(255, 25, 25); color: white; border: none; border-radius: 30px;">C</button>
+    <button class="btn" onclick="changeinp('')">0</button>
+    <button class="plus" onclick="calculate()">=</button>
+    <button class="plus"onclick="changeinp('/')">/</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
