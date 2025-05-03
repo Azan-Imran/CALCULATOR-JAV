@@ -9,6 +9,6 @@ function calculate(){
     document.getElementById("display").value = "Error"
   }
 }
-function clear(){
+function clearDisplay(){
    document.getElementById("display").value = "";
 }
